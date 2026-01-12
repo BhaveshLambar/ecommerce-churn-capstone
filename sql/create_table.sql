@@ -1,0 +1,23 @@
+CREATE TABLE telco_customer_churn (
+	customer_id VARCHAR(20) PRIMARY KEY,
+	gender VARCHAR(10),
+	senior_citizen INTEGER,
+	partner VARCHAR(3),
+	dependents VARCHAR(3),
+	tenure INTEGER,
+	phone_service VARCHAR(3),
+	multiple_lines VARCHAR(20),
+	internet_service VARCHAR(20),
+	online_security VARCHAR(20),
+	online_backup VARCHAR(20),
+	device_protection VARCHAR(20),
+	tech_support VARCHAR(20),
+	streaming_tv VARCHAR(20),
+	streaming_movies VARCHAR(20),
+	contract VARCHAR(20),
+	paperless_billing VARCHAR(3),
+	payment_method VARCHAR(30),
+	monthly_charges NUMERIC(10,2),
+	total_charges NUMERIC(10, 2),
+	churn VARCHAR(3)
+);
